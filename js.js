@@ -345,3 +345,48 @@ const myStorage = {
 };
 
 const gloveBoxContents = myStorage.car.inside["glove box"]
+
+
+
+
+
+
+
+
+
+
+
+Возвращает количество (количество) гласных в заданной строке.
+
+Мы будем рассматривать a, e, i, o, uкак гласные для этой Ката (но не y).
+
+Входная строка будет состоять только из строчных букв и/или пробелов.
+
+
+function getCount(str) {
+  let total = 0;
+
+  const string = str.toLowerCase().split("");
+
+  for (let i = 0; i < string.length; i++) {
+    const charts = string[i];
+
+    if (charts.includes("a")) {
+      total += 1;
+    } else 
+    if (charts.includes("e")) {
+      total += 1;
+    } else 
+    if (charts.includes("i")) {
+      total += 1;
+    } else
+    if (charts.includes("o")) {
+      total += 1;
+    } else 
+    if (charts.includes("u")) {
+      total += 1;
+    }
+  }
+
+  return total;
+}
