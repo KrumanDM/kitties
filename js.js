@@ -390,3 +390,13 @@ function getCount(str) {
 
   return total;
 }
+
+
+
+
+function abrevan(name) {
+
+  const [first, last] = name.split(" ")
+  return `${first[0].toUpperCase().${last[0].toUpperCase}}`
+
+}
