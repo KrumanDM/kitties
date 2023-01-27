@@ -363,33 +363,33 @@
 Входная строка будет состоять только из строчных букв и/или пробелов.
 
 
-function getCount(str) {
-  let total = 0;
+// function getCount(str) {
+//   let total = 0;
 
-  const string = str.toLowerCase().split("");
+//   const string = str.toLowerCase().split("");
 
-  for (let i = 0; i < string.length; i++) {
-    const charts = string[i];
+//   for (let i = 0; i < string.length; i++) {
+//     const charts = string[i];
 
-    if (charts.includes("a")) {
-      total += 1;
-    } else 
-    if (charts.includes("e")) {
-      total += 1;
-    } else 
-    if (charts.includes("i")) {
-      total += 1;
-    } else
-    if (charts.includes("o")) {
-      total += 1;
-    } else 
-    if (charts.includes("u")) {
-      total += 1;
-    }
-  }
+//     if (charts.includes("a")) {
+//       total += 1;
+//     } else 
+//     if (charts.includes("e")) {
+//       total += 1;
+//     } else 
+//     if (charts.includes("i")) {
+//       total += 1;
+//     } else
+//     if (charts.includes("o")) {
+//       total += 1;
+//     } else 
+//     if (charts.includes("u")) {
+//       total += 1;
+//     }
+//   }
 
-  return total;
-}
+//   return total;
+// }
 
 
 
