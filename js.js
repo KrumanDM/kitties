@@ -81,11 +81,11 @@ function caseInSwitch(val) {
   }
   
   
-//     // Only change code above this line
-//     return answer;
-//   }
+    // Only change code above this line
+    return answer;
+  }
   
-//   caseInSwitch(1);
+  caseInSwitch(1);
 
 
 
