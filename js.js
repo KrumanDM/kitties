@@ -51,11 +51,11 @@ function golfScore(par, strokes) {
     return names[6];
   }
 
-//   return "Change Me";
-//   // Only change code above this line
-// }
+  return "Change Me";
+  // Only change code above this line
+}
 
-// golfScore(5, 4);
+golfScore(5, 4);
 
 
 
