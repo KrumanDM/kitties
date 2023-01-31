@@ -79,8 +79,6 @@ function caseInSwitch(val) {
     
     
   }
-  
-  
     // Only change code above this line
     return answer;
   }
