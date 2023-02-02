@@ -386,12 +386,12 @@ friends: ["dima","sasha"] array это массив только на русск
 
 
 
-// function abrevan(name) {
+function abrevan(name) {
 
-//   const [first, last] = name.split(" ")
-//   return `${first[0].toUpperCase().${last[0].toUpperCase}}`
+  const [first, last] = name.split(" ")
+  return `${first[0].toUpperCase().${last[0].toUpperCase}}`
 
-// }
+}
 
 
 
@@ -423,7 +423,7 @@ function updateRecords(records, id, prop, value) {
 Если эта первая проверка не проходит, затем проверяется prop, равно ли tracks, 
 value не является ли это пустой строкой и запись не имеет массива дорожек. 
 Массив "tracks"инициализируется единственным содержимым value.
-Затем он проверяет prop, равно ли tracks, valueэто не пустая строка. 
+Затем он проверяет prop, равно ли tracks, value это не пустая строка. 
 Массив "tracks"должен существовать, потому что описанный выше случай не соответствует действительности. 
 Вставляется valueв конец "tracks"массива.
 Если value это пустая строка, то propо на удаляется.
