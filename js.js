@@ -392,3 +392,127 @@ friends: ["dima","sasha"] array это массив только на русск
 //   return `${first[0].toUpperCase().${last[0].toUpperCase}}`
 
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+function updateRecords(records, id, prop, value) {
+  if (prop !== "tracks" && value !== "") {
+    records[id][prop] = value;
+  } else if (prop === "tracks" && value !== "" && records[id].hasOwnProperty("tracks") === false) {
+    records[id][prop] = [value];
+  } else if (prop === "tracks" && value !== "") {
+    records[id][prop].push(value);
+  } else if (value === "") {
+    delete records[id][prop];
+  }
+  return records;
+}
+Эта версия кода явно обрабатывает каждый возможный случай с помощью отдельных предложений if.
+
+Сначала проверяется , prop не является ли это пустой строкой. Установлено значение ."tracks"valuepropvalue
+Если эта первая проверка не проходит, затем проверяется prop, равно ли tracks, 
+value не является ли это пустой строкой и запись не имеет массива дорожек. 
+Массив "tracks"инициализируется единственным содержимым value.
+Затем он проверяет prop, равно ли tracks, valueэто не пустая строка. 
+Массив "tracks"должен существовать, потому что описанный выше случай не соответствует действительности. 
+Вставляется valueв конец "tracks"массива.
+Если value это пустая строка, то propо на удаляется.
+Наконец, возвращается весь records объект.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Нахождение нечетных чисел
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (var i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
+console.log(myArray)
+
+
+
+Нечетные числа наоборот
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (let i=9; i>0; i -=2){
+  myArray.push(i)
+}
+console.log(myArray)
+
+
+Чётные числа наоборот
+const ourArray = [];
+
+for (let i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}
+
+
+
+
+
+
+Объявите и инициализируйте переменную total в 0.
+Используйте for цикл, чтобы добавить 
+значение каждого элемента myArr массива в total.
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+
+// Only change code below this line
+let total = 0;
+for (let i = 0; i < myArr.length; i++) {
+  total += myArr[i];
+}
+
+
+
+
+
+
+
+
+Измените функцию multiplyAll так, чтобы она 
+возвращала произведение всех чисел в подмассивах arr.
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+  for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++) {
+    
+    product = product * arr[i][j];
+
+
+  }
+}
+  // Only change code above this line
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
