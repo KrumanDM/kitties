@@ -457,22 +457,22 @@ value не является ли это пустой строкой и запи�
 
 
 Нечетные числа наоборот
-// Setup
-const myArray = [];
+// // Setup
+// const myArray = [];
 
-// Only change code below this line
-for (let i=9; i>0; i -=2){
-  myArray.push(i)
-}
-console.log(myArray)
+// // Only change code below this line
+// for (let i=9; i>0; i -=2){
+//   myArray.push(i)
+// }
+// console.log(myArray)
 
 
 Чётные числа наоборот
-const ourArray = [];
+// const ourArray = [];
 
-for (let i = 10; i > 0; i -= 2) {
-  ourArray.push(i);
-}
+// for (let i = 10; i > 0; i -= 2) {
+//   ourArray.push(i);
+// }
 
 
 
