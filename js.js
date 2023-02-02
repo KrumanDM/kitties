@@ -445,14 +445,14 @@ value не является ли это пустой строкой и запи�
 
 
 Нахождение нечетных чисел
-// Setup
-const myArray = [];
+// // Setup
+// const myArray = [];
 
-// Only change code below this line
-for (var i = 1; i < 10; i += 2) {
-  myArray.push(i);
-}
-console.log(myArray)
+// // Only change code below this line
+// for (var i = 1; i < 10; i += 2) {
+//   myArray.push(i);
+// }
+// console.log(myArray)
 
 
 
