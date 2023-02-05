@@ -302,20 +302,20 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 
 
-// const myStorage = {
-//   "car": {
-//     "inside": {
-//       "glove box": "maps",
-//       "passenger seat": "crumbs",
-//       "gloveBoxContents": "maps"
-//      },
-//     "outside": {
-//       "trunk": "jack"
-//     }
-//   }
-// };
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs",
+      "gloveBoxContents": "maps"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
 
-// const gloveBoxContents = myStorage.car.inside["glove box"]
+const gloveBoxContents = myStorage.car.inside["glove box"]
 
 
 
