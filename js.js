@@ -365,12 +365,12 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 
 
-// function abrevan(name) {
+function abrevan(name) {
 
-//   const [first, last] = name.split(" ")
-//   return `${first[0].toUpperCase().${last[0].toUpperCase}}`
+  const [first, last] = name.split(" ")
+  return `${first[0].toUpperCase().${last[0].toUpperCase}}`
 
-// }
+}
 
 
 
