@@ -166,16 +166,16 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 
 
-// Setup
-const testObj = {
-  12: "Namath",
-  16: "Montana",
-  19: "Unitas"
-};
+// // Setup
+// const testObj = {
+//   12: "Namath",
+//   16: "Montana",
+//   19: "Unitas"
+// };
 
-// Only change code below this line
-const playerNumber = 16;  // Change this line
-const player = testObj[playerNumber];   // Change this line
+// // Only change code below this line
+// const playerNumber = 16;  // Change this line
+// const player = testObj[playerNumber];   // Change this line
 
 
 
