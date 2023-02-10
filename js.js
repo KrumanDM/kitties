@@ -544,8 +544,8 @@ for (let i=0; i < dylan.length; i++){
   console.log(dylan[i])
 }
 
-// const newPeople = dylan.map(person =>{
-//   return person
-// })
-// console.log(newPeople)
+const newPeople = dylan.map(person =>{
+  return person
+})
+console.log(newPeople)
 
