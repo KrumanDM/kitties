@@ -39,6 +39,20 @@
           display: inline-block;
           font-size: 16px;
         }
+        
+        button:hover {
+        animation-name: background-color;
+        animation-duration: 500ms;
+    /* Only change code below this line */
+        animation-fill-mode: forwards;
+    /* Only change code above this line */
+        }
+        @keyframes background-color {
+        100% {
+        background-color: #4791d0;
+        } 
+        }
+        
         .red-text {
           color: rgb(240, 101, 235)!important;
         }
@@ -110,7 +124,7 @@
             <label><input type="checkbox" name="personality"> Лаконичные</label><br>
             <label><input type="checkbox" name="personality"> Весёлые</label><br>
             <input type="text" placeholder="cat photo URL" required>
-            <button type="submit">Ок</button>
+            <button type="submit">Подтвердить</button>
           </form>
           <script>
             const logMessage = () => {
